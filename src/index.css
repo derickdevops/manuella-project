@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap');
 
 :root {
-  --ink: #11100f;
-  --soft-ink: #4e4742;
-  --muted: #756c66;
-  --cream: #f7f2ea;
-  --pearl: #fffaf5;
-  --blush: #f1d9d3;
-  --rose: #b86f67;
-  --gold: #c39a54;
-  --charcoal: #181615;
-  --line: rgba(17, 16, 15, 0.12);
-  --shadow: 0 24px 70px rgba(17, 16, 15, 0.14);
+  --ink: #17120f;
+  --soft-ink: #51433d;
+  --muted: #7f7068;
+  --cream: #f8eee4;
+  --pearl: #fff9f2;
+  --blush: #f4cfc8;
+  --rose: #a9655b;
+  --gold: #b9914f;
+  --charcoal: #221815;
+  --line: rgba(80, 52, 43, 0.14);
+  --shadow: 0 24px 70px rgba(80, 52, 43, 0.16);
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   color: var(--ink);
   background: var(--pearl);
@@ -26,8 +26,9 @@ body {
   margin: 0;
   min-width: 320px;
   background:
-    radial-gradient(circle at 14% 4%, rgba(184, 111, 103, 0.18), transparent 28rem),
-    linear-gradient(180deg, var(--pearl), var(--cream) 48%, #fff);
+    radial-gradient(circle at 12% 6%, rgba(244, 207, 200, 0.45), transparent 28rem),
+    radial-gradient(circle at 86% 16%, rgba(185, 145, 79, 0.16), transparent 24rem),
+    linear-gradient(180deg, var(--pearl), var(--cream) 52%, #fffaf6);
 }
 
 body,
@@ -58,8 +59,8 @@ img {
 
 .site-header.is-scrolled {
   padding-block: 10px;
-  background: rgba(255, 250, 245, 0.9);
-  box-shadow: 0 12px 36px rgba(17, 16, 15, 0.08);
+  background: rgba(255, 249, 242, 0.92);
+  box-shadow: 0 12px 36px rgba(80, 52, 43, 0.09);
   backdrop-filter: blur(18px);
 }
 
@@ -248,8 +249,8 @@ p {
 
 .button-primary {
   color: #fff;
-  background: var(--charcoal);
-  box-shadow: 0 14px 34px rgba(17, 16, 15, 0.22);
+  background: linear-gradient(135deg, var(--charcoal), #6f4038);
+  box-shadow: 0 14px 34px rgba(111, 64, 56, 0.24);
 }
 
 .button-secondary {
@@ -292,8 +293,8 @@ p {
   padding: 18px;
   border: 1px solid rgba(255, 255, 255, 0.38);
   border-radius: 8px;
-  background: rgba(255, 250, 245, 0.9);
-  box-shadow: 0 18px 42px rgba(17, 16, 15, 0.18);
+  background: rgba(255, 249, 242, 0.92);
+  box-shadow: 0 18px 42px rgba(80, 52, 43, 0.18);
   backdrop-filter: blur(16px);
 }
 
@@ -347,7 +348,7 @@ p {
   padding: 20px 16px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.56);
+  background: rgba(255, 249, 242, 0.72);
 }
 
 .stat strong {
@@ -382,8 +383,8 @@ p {
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.74);
-  box-shadow: 0 12px 30px rgba(17, 16, 15, 0.06);
+  background: rgba(255, 249, 242, 0.82);
+  box-shadow: 0 12px 30px rgba(80, 52, 43, 0.07);
   transition: transform 180ms ease, box-shadow 180ms ease;
   animation-delay: var(--delay);
 }
@@ -437,7 +438,7 @@ p {
   padding: 0;
   background: #ddd;
   cursor: zoom-in;
-  box-shadow: 0 12px 32px rgba(17, 16, 15, 0.09);
+  box-shadow: 0 12px 32px rgba(80, 52, 43, 0.1);
   animation-delay: var(--delay);
 }
 
@@ -475,7 +476,7 @@ p {
   padding: 26px;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: #fffaf6;
   animation-delay: var(--delay);
 }
 
@@ -502,8 +503,8 @@ p {
   padding: clamp(38px, 6vw, 70px) clamp(22px, 6vw, 72px);
   color: #fff;
   background:
-    linear-gradient(90deg, rgba(17, 16, 15, 0.95), rgba(53, 43, 38, 0.88)),
-    url('/images/client-volume-curls.jpeg') center top / cover;
+    linear-gradient(90deg, rgba(34, 24, 21, 0.95), rgba(111, 64, 56, 0.82)),
+    url('/images/beauty-hair-styling.jpg') center top / cover;
 }
 
 .cta-section h2,
@@ -537,7 +538,7 @@ p {
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 10px 12px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 249, 242, 0.72);
   font-weight: 800;
 }
 
@@ -548,7 +549,7 @@ p {
   padding: clamp(22px, 4vw, 34px);
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: #fff;
+  background: #fffaf6;
   box-shadow: var(--shadow);
 }
 
@@ -567,7 +568,7 @@ textarea {
   border-radius: 8px;
   padding: 13px 14px;
   color: var(--ink);
-  background: #fffaf7;
+  background: #fffdf9;
   outline: none;
 }
 
@@ -579,7 +580,7 @@ input:focus,
 select:focus,
 textarea:focus {
   border-color: var(--gold);
-  box-shadow: 0 0 0 4px rgba(195, 154, 84, 0.16);
+  box-shadow: 0 0 0 4px rgba(185, 145, 79, 0.16);
 }
 
 small {
@@ -603,7 +604,7 @@ small {
 
 .site-footer {
   padding: 60px clamp(18px, 4vw, 56px) 24px;
-  color: #ddd7d1;
+  color: #eadfd6;
   background: var(--charcoal);
 }
 

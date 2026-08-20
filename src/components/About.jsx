@@ -8,7 +8,7 @@ export default function About() {
   return (
     <section className="section about" id="about">
       <div className="about-media reveal">
-        <img src="/images/client-long-install.jpeg" alt="Client smiling after a long sleek Evora install" />
+        <img src="/images/beauty-salon-interior.jpg" alt="Premium beauty salon interior with soft blush chairs" />
       </div>
       <div className="section-copy reveal delay-1">
         <span className="eyebrow">About Evora</span>
