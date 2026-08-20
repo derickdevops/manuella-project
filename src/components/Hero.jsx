@@ -15,7 +15,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="hero-media reveal delay-1">
-        <img src="/images/client-volume-curls.jpeg" alt="Evora client with glamorous curled hair install" />
+        <img src="/images/beauty-makeup-artist.jpg" alt="Elegant beauty service with soft glam makeup styling" />
         <div className="hero-note">
           <strong>Wig installs from $85</strong>
           <span>Closures, frontals, glueless installs, revamps, curls, and custom finishes.</span>
